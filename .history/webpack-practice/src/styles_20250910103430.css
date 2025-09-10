@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+/* styles.css */
+body {
+  background-color: #8B0000;
+}
+
+header{
+  display:flex;  
+  justify-content:center;
+  align-items:end;
+  gap: 5%;
+  height: 10vh;
+}
+
+.nav-container{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  width: 20%;
+  height: 50%;
+  background-color: #FAF3E0;
+}
+
+nav{
+  color: #2F2F2F;
+}

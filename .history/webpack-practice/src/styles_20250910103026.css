@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+/* styles.css */
+body {
+  background-color: rebeccapurple;
+}
+
+header{
+  display:flex;  
+  justify-content:center;
+  align-items:end;
+  gap: 5%;
+  border: 2px solid red;
+  height: 10vh;
+}

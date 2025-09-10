@@ -2,11 +2,7 @@
 const homeContent = document.getElementById('content');
 
 function home(){
-    const h1 = document.createElement('h1');
-    const paragraph = document.createElement('p');
-    h1.textContent = 'Welcome to La Bella Cucina';
-    paragraph.textContent = 'Experience authentic flavors crafted with passion. From sizzling steaks towood-fired pizzas, we bring the warmth of Italian dining right to your table.Join us for fresh ingredients, friendly service, and unforgettable evenings.'
-    homeContent.append(h1,paragraph);
+    homeContent.appendChild();
 
 
 }
@@ -39,11 +35,6 @@ function menu(){
 }
 
 function contact(){
-    const h1 = document.createElement('h1');
-    const paragraph = document.createElement('p');
-    h1.textContent = 'About Us';
-    paragraph.textContent = 'At La Bella Cucina, we believe dining is more than just food — it’s an experience.Our journey began with a passion for traditional recipes, fresh ingredients,and the joy of bringing people together around the table.From our chefs to our servers, every member of our team is dedicated to creating moments you’ll remember long after your meal.'
-    homeContent.append(h1,paragraph);
     
 }
 const navContainer = document.querySelector('.nav-container');

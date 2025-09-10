@@ -44,7 +44,7 @@ header{
 p{
   font-size: clamp(12px, 2vw, 20px);
   color: var(--dark);
-  line-height: 30px;
+  line-height: 40px;
 }
 
 h1{
